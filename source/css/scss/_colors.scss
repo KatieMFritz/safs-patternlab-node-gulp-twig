@@ -1,0 +1,44 @@
+// # COLORS
+// ---------------------------------------------------
+
+// ###
+$gray-base:       #97a2a2; // fail
+$gray-lightest:   lighten($gray-base, 35%);
+$gray-lighter:    lighten($gray-base, 30%);
+$gray-light:      lighten($gray-base, 20%);
+$gray:            $gray-base;
+$gray-medium:     #707878; // PASS gray on white
+$gray-dark:       #535054; // PASS
+$gray-darker:     darken($gray-dark, 20%);
+
+// ### MSU colors from brand.msu.edu
+// ** pass/fail contrast test on white background
+$white:           #ffffff;
+$red:             #cb5a28; // fail
+$orange:          #f08521; // fail
+$bronze:          #c89a58; // fail
+$tan:             #e8d9b5; // fail
+$yellow-green:    #d1de3f; // fail
+$green-light:     #94ae4a; // fail
+$green:           #0db14b; // fail
+$msu-green:       #18453B; // PASS
+$blue-green:      #008183; // PASS
+$blue:            #909ab7; // fail
+$purple:          #6e005f; // PASS
+
+// ### Versions that work with white (>4.5 contrast ratio)
+$red-contrast:          #C05426;
+$orange-contrast:       #B16219;
+$bronze-contrast:       #927040;
+$tan-contrast:          #7D7662;
+$yellow-green-contrast: #747B22;
+$green-light-contrast:  #6A7D36;
+$green-contrast:        #09883A;
+$blue-contrast:         #6D768A;
+
+// ### Bootstrap brand colors (use variables)
+$brand-primary:   $blue-green;
+$brand-success:   $green-contrast;
+$brand-info:      $blue-contrast;
+$brand-warning:   $yellow-green-contrast;
+$brand-danger:    $red-contrast;

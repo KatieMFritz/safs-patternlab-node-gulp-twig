@@ -11,6 +11,10 @@
     "styleguidekit-assets-default": "^3.0.0",
     "styleguidekit-mustache-default": "^3.0.0"
   },
+    "devDependencies": {
+    "gulp-sourcemaps": "^2.6.0",
+    "gulp-sass": "^3.1.0"
+  },
   "keywords": [
     "Pattern Lab",
     "Atomic Web Design",
