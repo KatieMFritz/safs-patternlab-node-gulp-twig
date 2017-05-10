@@ -1,0 +1,14 @@
+.u-visually-hidden {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+.u-center-text {
+  text-align: center !important;
+}
+
+.u-clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
