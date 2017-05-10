@@ -84,4 +84,7 @@ To add new styles:
 
  _Do not change `pattern-scaffolding.css` - it's a Pattern Lab asset._
 
+### Adding Images
+Add images to 'public/images'. The image pipeline from 'source' isn't working.
+
 LICENSE: pattern HTML and CSS copyright 2017 Katie M Fritz, LLC. Pattern Lab and MSU graphics do not belong to me.
