@@ -1,5 +1,9 @@
-@import 'colors';
+@import '00_base/colors';
 
 h1 {
   color: $orange;
+}
+h2 {
+  color: $orange-contrast;
+  font-size: 32px;
 }

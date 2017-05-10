@@ -12,7 +12,8 @@
       "images" : "./source/images",
       "fonts" : "./source/fonts",
       "css" : "./source/css/",
-      "scss" : "./source/css/scss/"
+      "scss" : "./source/css/scss/",
+      "bootstrap" : "./node_modules/bootstrap-sass/"
     },
     "public" : {
       "root" : "./public/",
