@@ -83,3 +83,5 @@ To add new styles:
 - Do not use `!important` to override existing styles, unless you are adding a new utility class that can apply to any component.
 
  _Do not change `pattern-scaffolding.css` - it's a Pattern Lab asset._
+
+LICENSE: pattern HTML and CSS copyright 2017 Katie M Fritz, LLC. Pattern Lab and MSU graphics do not belong to me.
