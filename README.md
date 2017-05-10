@@ -4,13 +4,17 @@ Contact: [Katie Fritz](http://katiemfritz.com)
 
 ## Resources
 - [MSU Web Standards](http://cabs.msu.edu/web/msu-web-standards.html#sResources)
+- [Pattern Lab](https://patternlab.io)
+- CSS architecture notes
+  - https://www.lullabot.com/articles/bem-atomic-design-a-css-architecture-worth-loving
+  - https://blog.alexdevero.com/atomic-design-scalable-modular-css-sass/
 
 ## Stack
 
 - [Pattern Lab Node Gulp Edition](https://github.com/pattern-lab/edition-node-gulp)
 - [Prerequisites for Pattern Lab Node Gulp](https://github.com/pattern-lab/edition-node-gulp#prerequisites) - Node, NPM, Gulp
 - [Twig Engine for Pattern Lab/Node](https://github.com/pattern-lab/patternengine-node-twig) - for Twig templating (Craft CMS compatiblity)
-- Sass support [see setup notes](https://gist.github.com/KatieMFritz/38dda99e71bb7cef7afa2ff57f63f2f4)
+- Sass support: [see setup notes](https://gist.github.com/KatieMFritz/38dda99e71bb7cef7afa2ff57f63f2f4)
 
 
 ## Installing
