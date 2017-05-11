@@ -52,3 +52,26 @@
   font-size: 90%;
   line-height: 1;
 }
+
+/* Styles I added */
+.font-secondary {
+  font-family: 'Californian', Georgia, 'Times New Roman', serif;
+}
+
+/*.sg-label {
+  display: block;
+  word-wrap: break-word;
+}
+
+.sg-label:last-child {
+  position: absolute;
+  margin-bottom: 0px;
+}
+
+.sg-colors li {
+  position: relative;
+  -webkit-box-flex: 0;
+    -ms-flex: 0;
+        flex: 0;
+  width: 9rem;
+}*/

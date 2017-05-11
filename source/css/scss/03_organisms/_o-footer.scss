@@ -3,6 +3,40 @@
 * @http://cabs.msu.edu/web/msu-web-standards.html#s7
 */
 
+/* This is the separator in the MSU footer. */
 .o-footer__hr {
-  border: 1px dotted #999;
+  border-bottom: 1px dotted #999;
+  border-top: none;
+  margin: 0 $space-s $space-xs;
+  @media (max-width: 600px) {
+    margin: $space-s;
+  }
+}
+
+.o-footer__wordmark {
+  max-width: 221px;
+  padding: $space-inset-s;
+}
+
+/* a little extra space to set this apart */
+.m-msu-info {
+  margin-top: $space-xs;
+}
+
+/* Display wordmark to the left of nav when screen is wide enough */
+@media (min-width: 800px) {
+  .o-footer {
+    display: grid;
+    grid-template-columns: 221px auto;
+  }
+  .o-footer__wordmark {
+    grid-row-start: 1;
+    grid-column-start: 1;
+    padding: 0;
+  }
+  .o-footer__navs {
+    grid-column-start: 2;
+    grid-row-start: 1;
+    padding-left: $space-m;
+  }
 }

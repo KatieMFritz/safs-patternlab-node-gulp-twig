@@ -1,0 +1,115 @@
+.m-nav {
+  // background-color: gray;
+  // padding: $space-inset-m;
+}
+
+.m-nav__list {
+  //background-color: skyblue;
+  display: block;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.m-nav__item {
+  //background-color: green;
+  display: inline-table;
+  // @media (min-width: 400px) {
+  //   margin-right: $space-xl;
+  //   margin-bottom: $space-m;
+  // }
+  // @media (max-width: 400px) {
+  //   margin: $space-inline-m;
+  // }
+  // &:last-child {
+  //   margin: 0;
+  // }
+}
+
+.m-nav__link {
+  //background-color: orange;
+  padding: $space-s $space-xs;
+  &:hover, &:focus, &.is-active {
+    border-bottom: 3px solid $color-link;
+    text-decoration: none;
+  }
+}
+
+/* styles just for primary nav */
+.m-nav--primary {
+  text-align: right;
+  @media(max-width: 400px) {
+    display: block;
+    text-align: center;
+    width: 100%;
+    .m-nav__list {
+      padding: 0;
+    }
+    .m-nav__item {
+      width: 100%;
+    }
+    .m-nav__link {
+      display: block;
+      height: 100%;
+      padding: $space-xs;
+    }
+    .m-nav__link:hover, .m-nav__link.is-active {
+      border: none;
+      background-color: $color-link;
+      color: $color-white;
+      display: block;
+      width: 100%;
+    }
+  }
+}
+
+/* Styles just for MSU Footer
+* @ http://cabs.msu.edu/web/msu-web-standards.html#73
+*/
+
+/* TODO: Use nth-child to only show separators when needed */
+.m-website-info, .m-msu-nav, .m-msu-info {
+  font-size: 0; // to override a display issue (space between inline items)
+  line-height: 1;
+  margin: 0;
+  .m-nav__item {
+    margin: $space-stack-xs;
+    padding: 0 $space-s;
+  }
+}
+
+.m-website-info {
+  .m-nav__item {
+    color: $color-msu-green;
+    font-size: .75rem;
+  }
+  .m-nav__item:not(:last-child) {
+    border-right: 1px solid $color-msu-green;
+  }
+  a {
+    color: $color-msu-green;
+  }
+  @media (max-width: 400px) {
+    text-align: center;
+  }
+}
+
+.m-msu-nav, .m-msu-info {
+  .m-nav__item {
+    color: $color-msu-green;
+    font-size: .5625rem;
+  }
+  @media (min-width: 390px) {
+    .m-nav__item:not(:last-child) {
+      border-right: 1px solid $color-msu-yellow-green;
+    }
+  }
+  a {
+    color: $color-msu-yellow-green;
+  }
+}
+
+.spartans-will {
+  font-weight: 600;
+  text-transform: uppercase;
+}

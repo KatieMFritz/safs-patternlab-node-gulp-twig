@@ -10,7 +10,8 @@
 @import '01_atoms/a-form-fields';
 
 @import '02_molecules/m-blockquote';
-
-@import '00_base/utilities'; // this comes last so these styles win
+@import '02_molecules/m-navigation';
 
 @import '03_organisms/o-footer';
+
+@import '00_base/utilities'; // this comes last so these styles win
