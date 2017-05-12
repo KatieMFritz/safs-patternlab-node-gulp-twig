@@ -12,56 +12,35 @@
 }
 
 .m-nav__item {
-  //background-color: green;
   display: inline-table;
-  // @media (min-width: 400px) {
-  //   margin-right: $space-xl;
-  //   margin-bottom: $space-m;
-  // }
-  // @media (max-width: 400px) {
-  //   margin: $space-inline-m;
-  // }
-  // &:last-child {
-  //   margin: 0;
-  // }
-}
-
-.m-nav__link {
-  //background-color: orange;
-  padding: $space-s $space-xs;
-  &:hover, &:focus, &.is-active {
-    border-bottom: 3px solid $color-link;
-    text-decoration: none;
-  }
 }
 
 /* styles just for primary nav */
 .m-nav--primary {
-  text-align: right;
-  @media(max-width: 400px) {
-    display: block;
-    text-align: center;
-    width: 100%;
-    .m-nav__list {
-      padding: 0;
-    }
-    .m-nav__item {
-      width: 100%;
-    }
-    .m-nav__link {
-      display: block;
-      height: 100%;
-      padding: $space-xs;
-    }
-    .m-nav__link:hover, .m-nav__link.is-active {
-      border: none;
-      background-color: $color-link;
-      color: $color-white;
-      display: block;
-      width: 100%;
+  background-color: $color-yellow-green-contrast;
+  .m-nav__list {
+    float: left;
+    padding: $space-s 0;
+  }
+  .m-nav__item {
+    float: left;
+    padding: $space-inset-squish-m;
+    margin: 0;
+  }
+  .m-nav__link {
+    color: $color-white;
+    font-weight: 700;
+    text-transform: uppercase;
+    &:hover, &:focus, &.is-active {
+      background-color: $color-msu-green;
+      text-decoration: none;
     }
   }
 }
+
+/* TODO: Add mobile nav */
+
+/* TODO: Add dropdowns */
 
 /* Styles just for MSU Footer
 * @ http://cabs.msu.edu/web/msu-web-standards.html#73

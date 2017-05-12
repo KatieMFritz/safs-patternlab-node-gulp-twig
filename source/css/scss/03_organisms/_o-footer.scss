@@ -13,9 +13,13 @@
   }
 }
 
+.o-footer__navs {
+  max-width: 300px;
+}
+
 .o-footer__wordmark {
   max-width: 221px;
-  padding: $space-inset-s;
+  padding: $space-m $space-s;
 }
 
 /* a little extra space to set this apart */
@@ -24,7 +28,7 @@
 }
 
 /* Display wordmark to the left of nav when screen is wide enough */
-@media (min-width: 800px) {
+@media (min-width: 30rem) {
   .o-footer {
     display: grid;
     grid-template-columns: 221px auto;
@@ -37,6 +41,7 @@
   .o-footer__navs {
     grid-column-start: 2;
     grid-row-start: 1;
+    max-width: 100%;
     padding-left: $space-m;
   }
 }
