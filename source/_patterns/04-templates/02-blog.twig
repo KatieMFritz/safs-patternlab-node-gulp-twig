@@ -1,0 +1,8 @@
+{% extends "templates-site" %}
+{% block title %}<h1 class="section-title">Blog</h1>{% endblock %}
+
+{% block main %}
+  {% for post in latest_posts %}
+    {% include "molecules-media-block" %}
+  {% endfor %}
+{% endblock %}

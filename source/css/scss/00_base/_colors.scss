@@ -40,6 +40,7 @@ $color-blue-contrast:         #6D768A;
 
 // Brand Colors
 $color-brand-primary:   $color-blue-green;
+$color-brand-secondary: $color-purple;
 $color-brand-success:   $color-green-contrast;
 $color-brand-info:      $color-blue-contrast;
 $color-brand-warning:   $color-yellow-green-contrast;
@@ -47,6 +48,7 @@ $color-brand-danger:    $color-red-contrast;
 
 // Color helpers
 $color-text: #444;
+$color-text-muted: #555;
 $color-gray-light: $color-gray-90;
 $color-link: $color-green-contrast;
 $color-link--hover: shade($color-link, 40%);

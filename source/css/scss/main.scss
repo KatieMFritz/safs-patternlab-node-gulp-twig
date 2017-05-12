@@ -1,10 +1,10 @@
 @import '00_base/reset';
 @import '00_base/functions';
+@import '00_base/mixins';
 @import '00_base/colors';
 @import '00_base/variables';
 @import '00_base/space';
 @import '00_base/typography';
-@import '00_base/mixins';
 
 @import '01_atoms/a-icons';
 @import '01_atoms/a-images';
@@ -13,6 +13,8 @@
 @import '01_atoms/a-form-fields';
 @import '01_atoms/a-buttons';
 
+@import '02_molecules/m-text';
+@import '02_molecules/m-blocks';
 @import '02_molecules/m-blockquote';
 @import '02_molecules/m-msu-search';
 @import '02_molecules/m-navigation';

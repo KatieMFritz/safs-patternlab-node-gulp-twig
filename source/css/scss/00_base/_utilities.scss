@@ -7,7 +7,7 @@
   text-align: center !important;
 }
 
-.u-clearfix:after {
+div:after, .u-clearfix:after {
   content: "";
   display: table;
   clear: both;

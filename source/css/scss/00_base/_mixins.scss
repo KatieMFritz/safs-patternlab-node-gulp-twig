@@ -10,3 +10,20 @@
   box-shadow: none;
   outline: none;
 }
+
+// background colors (for buttons)
+@mixin background($color, $percentage:30%) {
+  background-color: $color;
+  &:hover, &:active, &:focus {
+    background-color: shade($color, $percentage);
+  }
+}
+
+// clearfix
+@mixin clearfix {
+  &:after {
+  content: "";
+  display: table;
+  clear: both;
+  }
+}
