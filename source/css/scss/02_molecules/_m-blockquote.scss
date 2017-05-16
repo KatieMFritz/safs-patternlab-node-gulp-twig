@@ -20,7 +20,18 @@
 }
 
 .m-blockquote__cite {
+  font-size: $font-size-base;
   &:before {
     content: '\2014 \A0';
+  }
+}
+
+@media (max-width: 30rem) {
+  .m-blockquote {
+    font-size: $font-size-base;
+    padding: $space-inset-m;
+  }
+  .m-blockquote__cite {
+    font-size: $font-size-s;
   }
 }
