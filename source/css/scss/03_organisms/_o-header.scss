@@ -1,6 +1,10 @@
 /* MSU Web Standards: Header
 * @http://cabs.msu.edu/web/msu-web-standards.html#s3
 */
+.o_header {
+  margin: $space-stack-m;
+}
+
 .o-header__msu {
   display:flex;
   flex-wrap: wrap;

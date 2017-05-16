@@ -58,6 +58,24 @@
   font-family: 'Californian', Georgia, 'Times New Roman', serif;
 }
 
+.sg-pattern-desc blockquote {
+  border-left: 2px solid #aaa;
+  font-size: 90%;
+  font-style: italic;
+  margin-left: .5rem;
+  margin-bottom: 1rem;
+  padding-left: .5rem;
+}
+
+.sg-pattern-desc {
+  max-height: 400px;
+  overflow: scroll;
+}
+
+.sg-pattern-desc ul, .sg-pattern-desc ol {
+  margin-bottom: 1rem;
+}
+
 /*.sg-label {
   display: block;
   word-wrap: break-word;
